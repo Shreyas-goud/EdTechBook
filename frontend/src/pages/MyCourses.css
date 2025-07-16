@@ -1,0 +1,46 @@
+/* src/pages/MyCourses.css */
+
+.mycourses-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 32px 8px;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.back-btn {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.back-btn:hover {
+  background-color: #181c1b;
+  border-color: #1a8b7e;
+  color: #fff;
+}
+
+.mycourses-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.mycourses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 32px;
+  gap: 24px;
+}
+
+.empty-message {
+  font-size: 1.3rem;
+  color: #777;
+  margin-top: 80px;
+  text-align: center;
+}

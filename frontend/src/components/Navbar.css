@@ -1,0 +1,76 @@
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 14px 32px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 90%;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  border: 1px solid #dcdcdc;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.navbar-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: #000000;
+  transition: color 0.2s ease;
+}
+.navbar-title:hover {
+  color: #333333;
+}
+
+.navbar-center-1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #111111;
+  margin-right: 8rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.navbar-center-1:hover {
+  color: #333333;
+}
+
+.navbar-menu {
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #000000;
+  transition: transform 0.2s ease;
+}
+.navbar-menu:hover {
+  transform: scale(1.1);
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: absolute;
+  top: 62px;
+  right: 2rem;
+  background-color: #ffffff;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-width: 140px;
+  font-size: 0.95rem;
+  overflow: hidden;
+}
+
+.dropdown > div {
+  padding: 12px 16px;
+  cursor: pointer;
+  color: #000000;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dropdown > div:hover {
+  background-color: #f5f5f5;
+  color: #111111;
+}

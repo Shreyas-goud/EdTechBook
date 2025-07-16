@@ -1,0 +1,52 @@
+.landing-preview-courses {
+  background-color: #ffffff;
+  color: #111;
+  padding: 3rem 1.5rem 6rem 1.5rem; /* reduced top padding */
+  min-height: 90vh; /* slightly less to prevent full stacked height feel */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #e5e5e5;
+  scroll-margin-top: 60px; /* ensures clean anchor scrolling if added later */
+}
+.preview-content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.preview-heading {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.preview-subtext {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.preview-image {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0.6, 0.6, 0.6, 0.6);
+  margin-bottom: 2rem;
+}
+
+.preview-button {
+  padding: 12px 20px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid #000;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.preview-button:hover {
+  background-color: #fff;
+  color: #000;
+}

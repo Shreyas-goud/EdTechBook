@@ -1,2 +1,17 @@
-node_modules
-.env
+# Node modules
+backend/node_modules/
+frontend/node_modules/
+adminfrontend/node_modules/
+
+# Build output
+frontend/build/
+adminfrontend/build/
+
+# Env files
+*.env
+
+# Logs
+*.log
+
+# Mac / System files
+.DS_Store
